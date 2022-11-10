@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Summer Exploring</title>
+	<style>
+		@import url("assens/header.css");
+		@import url("assens/content.css");
+		@import url("assens/body.css");
+		@import url("assens/footer.css");
+	</style>
+</head>
+<body>
+	<header class="head">
+		<div class="container head__container">
+			<a href="#" class="head__logo"><img src="pictures/icon/logo.png" class="head__logo" alt=""></a>
+			<div class="head__menu_search">
+				<div class="header__menu">
+					<a href="" class="header__menu_item">HOME</a>
+					<a href="" class="header__menu_item">MENU</a>
+					<a href="" class="header__menu_item">OUR STORY</a>
+					<a href="" class="header__menu_item">CONTACT US</a>
+				</div>
+				<input type="search" placeholder="Search..." class="head__search">
+				<img src="pictures/icon/Hamburger_icon.svg.png" alt="" class="header__burger" id="header__burger" onclick="Burger()">
+			</div>
+		</div>
+		<div class="header__burger_menu" id="header__burger_menu">
+			<a href="" class="header__burger_item">HOME</a>
+			<a href="" class="header__burger_item">MENU</a>
+			<a href="" class="header__burger_item">OUR STORY</a>
+			<a href="" class="header__burger_item">CONTACT US</a>
+		</div>
+		<script>
+			/*Бургер меню шапки*/
+			function Burger(){
+				if (document.getElementById('header__burger').style.transform == "rotate(0deg)") {
+					document.getElementById('header__burger_menu').style.display = "flex";
+					document.getElementById('header__burger').style.transform = "rotate(-90deg)"
+				}
+				else{
+					document.getElementById('header__burger_menu').style.display = "none";
+					document.getElementById('header__burger').style.transform = "rotate(0deg)";
+				}
+			}
+		</script>
+	</header>
+	<div class="content">
+		<div class="hiking">
+			<div class="container">
+				<div class="hiking__container">
+					<div class="hiking__block_header">
+						<h1 class="hiking__header">IT'S TIME <br> FOR HIKING</h1>
+						<p class="hiking__subtitle">LOREMIPSUM DOLOR</p>
+					</div>
+					<div class="hiking__block_button">
+						<a href="#" class="hiking__button">READ MORE</a>
+					</div>
+					<div class="hiking__block_text">
+						<p class="hiking__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do iusmod tempor incididunt ut labore et dolore magna.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="lets_go">
+			<div class="container">
+				<div class="lets_go__block_header">
+					<h1 class="lets_go__header">LET'S GO</h1>
+					<p class="lets_go__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+				</div>
+				<div class="lets_go__block_row">
+					<div class="lets_go__block_column">
+						<div class="lets_go__block_item">
+							<img src="pictures/png/1.png" class="lets_go__block_item_png" alt="">
+							<div class="lets_go__block_item_container">
+								<h1 class="lets_go__block_item_header">Lorem Ipsum</h1>
+								<p class="lets_go__block_item_text">Lorem ipsum dolor sit amet, consectetur  adipisicing...</p>
+							</div>
+						</div>
+						<div class="lets_go__block_item">
+							<img src="pictures/png/2.png" class="lets_go__block_item_png" alt="">
+							<div class="lets_go__block_item_container">
+								<h1 class="lets_go__block_item_header">Lorem Ipsum</h1>
+								<p class="lets_go__block_item_text">Lorem ipsum dolor sit amet, consectetur  adipisicing...</p>
+							</div>
+						</div>
+						<div class="lets_go__block_item">
+							<img src="pictures/png/3.png" class="lets_go__block_item_png" alt="">
+							<div class="lets_go__block_item_container">
+								<h1 class="lets_go__block_item_header">Lorem Ipsum</h1>
+								<p class="lets_go__block_item_text">Lorem ipsum dolor sit amet, consectetur  adipisicing...</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="lets_go__block_button">
+					<a href="#" class="lets_go__button">SHOW MORE</a>
+				</div>
+			</div>
+		</div>
+		<div class="promotion__row">
+			<div class="promotion__column">
+				<div class="promotion__item">
+					<img src="pictures/png/one_promotion.png" alt="" class="promotion__item promotion__png">
+				</div>
+				<div class="promotion__item promotion__item_1">
+					<div class="promotion__item promotion__block_text promotion__block_text_grey">
+						<h1 class="promotion__header">Discount up to <br>50% All Excursions</h1>
+						<p class="promotion__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						<div class="promotion___block_button">
+							<a href="#" class="promotion__button">READ MORE</a>
+						</div>
+					</div>
+				</div>
+				<div class="promotion__item promotion__active promotion__item_2">
+					<div class="promotion__item promotion__block_text promotion__block_text_orange">
+						<h1 class="promotion__header">January’s Promo:<br>Buy 1 Get 1 Free!</h1>
+						<p class="promotion__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+						<div class="promotion___block_button">
+							<a href="#" class="promotion__button">READ MORE</a>
+						</div>					
+					</div>
+				</div>
+				<div class="promotion__item">
+					<img src="pictures/png/two_promotion.png" alt="" class="promotion__item promotion__png">
+				</div>
+			</div>
+		</div>
+		<div class="mountains">
+			<div class="mountains__block_text">
+				<h1 class="mountains__header">Hiking in the mountains</h1>
+				<p class="mountains__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis </p>
+			</div>
+		</div>
+		<div class="world">
+			<div class="world__block_text">
+				<h1 class="world__text world__text_up">EXPLORE</h1>
+				<h1 class="world__text world__text_down">THE WORLD</h1>
+			</div>
+		</div>
+		<div class="information">
+			<div class="container">
+				<div class="information__row">
+					<div class="information__column">
+						<div class="information__item">
+							<h1 class="information__header">lorem ipsum</h1>
+							<p class="information__text">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+						</div>
+						<div class="information__item">
+							<h1 class="information__header">lorem ipsum</h1>
+							<p class="information__text">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+						</div>
+						<div class="information__item">
+							<h1 class="information__header">lorem ipsum</h1>
+							<p class="information__text">Lorem ipsum dolor sit amet, consecte sectetur adipisicing elit, tation omne ullamco laboris nisi ut aliqolore.</p>
+						</div>
+					</div>
+				</div>
+				<div class="information__sub_block">
+					<p class="information__subtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+					<p class="information__subheader">Lorem ipsum</p>
+				</div>
+			</div>
+		</div>
+		<div class="email">
+			<div class="container">
+				<div class="email__block">
+					<h1 class="email__header">Title Here</h1>
+					<p class="email__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+					<div class="email__block_string">
+						<input type="text" class="email__string" placeholder="Your Email">
+						<a href="" class="email__button">SUBSCRIBE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__column">
+				<div class="footer__item">
+					<p class="footer__header">Title Here</h1>
+					<p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim. </p>
+					<div class="footer__block_icon">
+						<a href="#" class="footer__icon"><img src="pictures/icon/Instagram.png" alt="" class="footer__icon"></a>
+						<a href="#" class="footer__icon"><img src="pictures/icon/Facebook.png" alt="" class="footer__icon"></a>
+						<a href="#" class="footer__icon"><img src="pictures/icon/Twitter.png" alt="" class="footer__icon"></a>
+						<a href="#" class="footer__icon"><img src="pictures/icon/WhatsApp.png" alt="" class="footer__icon"></a>
+					</div>
+				</div>
+				<div class="footer__submenu">
+					<div class="footer__submenu_item">
+						<p class="footer__header">About</h1>
+						<div class="footer__menu">
+							<a href="" class="footer__link">History</a>
+							<a href="" class="footer__link">Our Team</a>
+							<a href="" class="footer__link">Brend Guidelines</a>
+							<a href="" class="footer__link">Terms&Condition</a>
+							<a href="" class="footer__link">Privacy Policy</a>
+						</div>
+					</div>
+					<div class="footer__submenu_item">
+						<p class="footer__header">Services</h1>
+						<div class="footer__menu">
+							<a href="" class="footer__link">How to Order</a>
+							<a href="" class="footer__link">Our Product</a>
+							<a href="" class="footer__link">Order Status</a>
+							<a href="" class="footer__link">Promo</a>
+							<a href="" class="footer__link">Payment Method</a>
+						</div>
+					</div>
+					<div class="footer__submenu_item">
+						<p class="footer__header">Other</h1>
+						<div class="footer__menu">
+							<a href="" class="footer__link">Contact Us</a>
+							<a href="" class="footer__link">Help</a>
+							<a href="" class="footer__link">Privacy</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>	
+</html>

@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+@media screen and (max-width: 1921px){
+	.container{
+		max-width: 1680px;
+	}
+}
+@media screen and (max-width: 1681px){
+	.container{
+		max-width: 1600px;
+	}
+}
+@media screen and (max-width: 1601px){
+	.container{
+		max-width: 1366px;
+
+}
+@media screen and (max-width: 1367px){
+	.container{
+		max-width: 1280px;
+	}
+}
+@media screen and (max-width: 1281px){
+	.container{
+		max-width: 1024px;
+	}
+}
+@media screen and (max-width: 900px){
+	.header__burger{
+		display: block;
+		width: 55px;
+		height:55px;
+		margin: 2vw 1.111vw 0px 2.222vw;
+	}
+	.header__menu{
+		display: none;
+	}
+	.head__search{
+		margin: 2.889vw 0px 0px 3.333vw;
+	}
+	.header__burger_item{
+		font-size: 4vw;
+	}
+}
+@media screen and (max-width: 600px){
+	.lets_go__block_column{
+		flex-wrap: wrap;
+	}
+	.container{
+		max-width: 600px;
+	}
+	.lets_go__header{
+		font-size: 6vw;
+	}
+	.lets_go__text{
+		font-size: 3vw;
+	}
+	.lets_go__block_item_png, .lets_go__block_item{
+		width: 60vw;
+	}
+	.lets_go__block_item_header{
+		font-size: 4vw;
+	}
+	.lets_go__block_item_text{
+		font-size: 3vw;
+	}
+	.lets_go__button{
+		font-size: 3vw;
+	}
+	.lets_go__block_button{
+		width: 30vw;
+	}
+
+
+
+	.hiking__container{
+		padding: 6vw;
+	}
+	.hiking__subtitle{
+		font-size: 3vw;
+	}
+	.hiking__button{
+		font-size: 3vw;
+	}
+	.hiking__block_button{
+		width: 25vw;
+	}
+	.hiking__text{
+		font-size: 2vw;
+		width: 30vw;
+	}
+
+
+
+	.head__logo{
+		width: 14vw;
+	}
+	.header__burger{
+		display: block;
+		width: 50px;
+		height: 50px;
+	}
+	.header__burger_item{
+		font-size: 6vw;
+		padding: 30px;
+	}
+
+
+
+	.promotion__column{
+		width: 100%;
+	}
+	.promotion__item{
+		width: 100%;
+	}
+	.promotion__item_1, .promotion__item_2{
+		height: 100vw;
+	}
+	.promotion__active{
+		order: 1;
+	}
+	.promotion__block_text{
+		width: 75%;
+		text-align: center;
+		margin: auto;
+	}
+	.promotion__header{
+		font-size: 7vw;
+	}
+	.promotion__text{
+		font-size: 4vw;
+	}
+	.promotion__block_text_grey{
+		padding: 0;
+		padding-top: 25vw;
+	}
+	.promotion__block_text_orange{
+		padding: 0;
+		padding-top: 25vw;
+	}
+	.promotion__block_button{
+		margin: auto;
+		width: 41.667vw;
+	}
+	.promotion__button{
+		font-size: 3.7vw;
+		padding: 0.977vw 7vw 0.977vw 7vw;
+	}
+
+
+
+	.mountains{
+		padding-top: 6.5vw;
+	}
+	.mountains__block_text{
+		width: 65%;
+	}
+	.mountains__text{
+		font-size: 2.5vw;
+	}
+	.mountains__header{
+		font-size: 6vw;
+	}
+
+
+
+	.world__block_text{
+		width: 35vw;
+	}
+
+
+
+	.information__column{
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.information__item{
+		width: 70%;
+		margin-bottom: 8.333vw;
+	}
+	.information__text{
+		font-size: 3vw;
+	}
+	.information__header{
+		font-size: 6vw;
+	}
+	.information__sub_block{
+		width: 70%;
+		margin-top: 3.333vw;
+	}
+	.information__subheader, .information__subtext{
+		font-size: 3vw;
+	}
+
+
+
+	.email__block{
+		padding-top: 9vw;
+	}
+	.email__header{
+		font-size: 6vw;
+	}
+	.email__text{
+		font-size: 2.5vw;
+	}
+	.email__string{
+		font-size: 2.5vw;
+	}
+	.email__button{
+		font-size: 2.5vw;
+	}
+
+
+
+	.footer__item{
+		margin-left: 5vw;
+	}
+}

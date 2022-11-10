@@ -1,0 +1,54 @@
+.head__container{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.header__menu{
+	margin-top: 35px;
+	margin-right: 50px;
+}
+.header__menu_item{
+	margin: 0px 16px 0px 16px;
+	font-size: 20px;
+	color: #54524f;
+	font-weight: 700;
+}
+.head__search {
+ 	font-size: 14px;
+ 	background-color: #c3bfbc;
+ 	padding: 10px;
+ 	color: white;
+ 	width: 150px;
+ 	height: 40px;
+ 	border: none;
+ 	border-radius: 25px;
+ 	appearance: none;
+ 	outline: none;
+ 	margin: 26px 0px 0px 30px;
+}
+.head__menu_search{
+	display: flex;
+}
+.head__logo{
+	cursor: pointer;
+}
+.header__burger{
+	display: none;
+	margin: 20px 10px 0px 20px;
+	transform: rotate(0deg);
+	transition: 0.3s;
+}
+.header__burger_menu{
+	position: absolute;
+	width: 100%;
+	background-color: #776c64;
+	display: none;
+	flex-direction: column;
+	transition: 0.3s;
+}
+.header__burger_item{
+	color: white;
+	padding: 30px;
+	font-size: 6vw;
+	text-align: center;
+}
